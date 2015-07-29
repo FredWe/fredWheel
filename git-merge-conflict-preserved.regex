@@ -1,7 +1,7 @@
 // these 2 regex used in Sublime Text 3
 
 // choose HEAD preserved as follow: (here to merge origin/gh-pages)
-(<{7}\sHEAD\n)|(={7}\n(.*[^(origin/gh-pages)]\n)+>{7}\sorigin/gh-pages\n)
+(<{7}\sHEAD\n)|(={7}\n(.*[^(origin/gh-pages)]\n)*>{7}\sorigin/gh-pages\n)
 
 // choose branch merged(here as origin/gh-pages) preserved as follow: (here to merge origin/gh-pages)
-(>{7}\sorigin/gh-pages\n)|(<{7}\sHEAD\n(.*[^(={7})]\n)+={7}\n)
+(>{7}\sorigin/gh-pages\n)|(<{7}\sHEAD\n(.*[^(={7})]\n)*={7}\n)
